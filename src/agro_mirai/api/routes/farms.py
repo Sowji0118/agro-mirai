@@ -8,7 +8,7 @@ from flask import Blueprint, current_app, g, jsonify, request
 
 from agro_mirai.api.auth import require_auth
 from agro_mirai.api.errors import ApiError
-from agro_mirai.api.serializers import to_json
+from agro_mirai.api.serializers import farmer_to_public_json, to_json
 from agro_mirai.api.validation import validate_field_create
 from agro_mirai.persistence.models import Field_
 
@@ -24,7 +24,7 @@ def get_me():
     farmer = store.get_farmer(g.farmer_id)
     if farmer is None:
         raise ApiError(404, "NOT_FOUND", "Farmer not found")
-    return jsonify(to_json(farmer)), 200
+    return jsonify(farmer_to_public_json(farmer)), 200
 
 
 @farms_bp.get("/fields")
