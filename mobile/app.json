@@ -15,7 +15,7 @@
         "foregroundImage": "./assets/adaptive-icon-foreground.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.ritesh1918.mobile",
+      "package": "com.agromirai.mobile",
       "versionCode": 21,
       "permissions": [
         "android.permission.RECORD_AUDIO",
@@ -73,15 +73,6 @@
           }
         }
       ]
-    ],
-    "owner": "ritesh.bonthalakoti",
-    "updates": {
-      "url": "https://u.expo.dev/68847f91-ef3a-429b-b3cb-d8398450af47"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "68847f91-ef3a-429b-b3cb-d8398450af47"
-      }
-    }
+    ]
   }
 }

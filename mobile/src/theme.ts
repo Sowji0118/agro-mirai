@@ -1,6 +1,6 @@
 // Deliberately plain: white background, one green accent, system font, thin
-// borders, no gradients/shadows/custom fonts. (Ritesh's Module 39 feedback:
-// the old UI was over-designed; this is the minimal replacement.)
+// borders, no gradients/shadows/custom fonts — the old UI was over-designed;
+// this is the minimal replacement.
 export const C = {
   bg: '#FFFFFF',
   surface: '#F5F6F3',

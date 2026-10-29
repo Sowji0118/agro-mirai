@@ -13,8 +13,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT_Capstone_2026-yellow.svg?style=flat-square)](LICENSE)
 
 **Track:** `Smart Agriculture / Rural AI` | **Target Users:** `Indian Smallholder Farmers`  
-**Deployment:** `Vercel Edge CDN + Render Cloud Web Services + Supabase Postgres`  
-**Developer:** `Ritesh Bonthalakoti` — Solo Developer
+**Deployment:** `Vercel Edge CDN + Render Cloud Web Services + Supabase Postgres`
 
 <p align="center">
   <a href="https://agromirai.vercel.app/app-release.apk"><img src="https://img.shields.io/badge/⚡_Direct_Download-Release_APK_(v2.2.2)-2ea44f?style=for-the-badge&logo=android&logoColor=white" alt="Download Mobile APK"/></a>
@@ -22,8 +21,6 @@
   <a href="https://agromirai.vercel.app/download"><img src="https://img.shields.io/badge/📱_Web_Download_Portal-agromirai.vercel.app-0070f3?style=for-the-badge&logo=vercel&logoColor=white" alt="Web Download Portal"/></a>
   &nbsp;
   <a href="docs/INDEX.md"><img src="https://img.shields.io/badge/📚_Documentation-Master_Index-6f42c1?style=for-the-badge&logo=readme&logoColor=white" alt="Documentation Master Index"/></a>
-  &nbsp;
-  <a href="docs/NEXT_TEAM_HANDOVER.md"><img src="https://img.shields.io/badge/🛠️_Engineering-Handover_Guide-d73a49?style=for-the-badge&logo=gitbook&logoColor=white" alt="Engineering Handover"/></a>
 </p>
 
 </div>
@@ -266,7 +263,6 @@ AGRO MIRAI/
 ├── decisions/                       # 30 Architectural Decision Records (ADRs 0001 - 0030)
 ├── docs/                            # Comprehensive documentation, research & runbooks
 │   ├── INDEX.md                     # Master Technical Documentation Index & Directory Map
-│   ├── NEXT_TEAM_HANDOVER.md        # Production Handover, Build Instructions & Operations
 │   ├── architecture.md              # Full System Architecture, Microservices & Data Flows
 │   ├── conventions.md               # Unit Standards, Timestamps & ID Specifications
 │   ├── testing-strategy.md          # 4-Layer Test Pyramid (Unit, Contract, Edge, Live/Offline)
@@ -311,7 +307,7 @@ AGRO MIRAI/
 ### 1. Backend Service Setup (Python 3.12)
 ```bash
 # Clone the repository
-git clone https://github.com/riteshbonthalakoti/agro-mirai.git
+git clone https://github.com/Sowji0118/agro-mirai.git
 cd "agro-mirai"
 
 # Install development dependencies
@@ -347,7 +343,6 @@ npx expo run:android
 
 ---
 
-## 📜 Authorship & Acknowledgments
+## 📜 Acknowledgments
 
-* **Project Author & Solo Developer:** **Ritesh Bonthalakoti** ([@riteshbonthalakoti](https://github.com/riteshbonthalakoti))
 * **Built as a Final Capstone Project (2026)** to empower Indian smallholder farmers with accessible, science-backed artificial intelligence.

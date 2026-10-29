@@ -3,7 +3,7 @@
 # pinned to 4.49.0 — see docs/architecture.md and
 # decisions/0014-deploy-target-and-voice-scope.md). This container is
 # the production-grade replacement for that workaround: the isolation
-# boundary moves from "a venv on Ritesh's machine" to "a separate
+# boundary moves from "a venv on a single developer's machine" to "a separate
 # process on the Oracle VM."
 #
 # NOTE: exact upstream pins (torch/transformers/IndicTransToolkit/piper/

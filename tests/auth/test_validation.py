@@ -11,7 +11,7 @@ from agro_mirai.auth.validation import (
 )
 
 
-@pytest.mark.parametrize("email", ["a@b.com", "ritesh@dharanova.com", "x.y+z@sub.domain.co"])
+@pytest.mark.parametrize("email", ["a@b.com", "user@example.com", "x.y+z@sub.domain.co"])
 def test_valid_emails_pass(email):
     validate_email(email)  # no raise
 

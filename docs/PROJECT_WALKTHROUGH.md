@@ -77,14 +77,14 @@ splash video hand-off fixes.
 
 | # | Item | Owner needed |
 |---|---|---|
-| 1 | **Real push notifications** (app fully closed) need a dev/release build, a Firebase/FCM project, and a backend device-token endpoint. Not built. | Ritesh (Firebase account) + dev |
+| 1 | **Real push notifications** (app fully closed) need a dev/release build, a Firebase/FCM project, and a backend device-token endpoint. Not built. | Owner (Firebase account) + dev |
 | 2 | **OTP is written to server logs**; no SMS provider is wired up. Must be replaced before real users. | Dev + SMS vendor decision |
-| 3 | **CNN service token**: confirm `CNN_SERVICE_TOKEN` matches on the main and CNN services, then test with a real leaf photo. | Ritesh (Render dashboard) |
+| 3 | **CNN service token**: confirm `CNN_SERVICE_TOKEN` matches on the main and CNN services, then test with a real leaf photo. | Owner (Render dashboard) |
 | 4 | **New APK not yet built**; latest app changes are tested through Expo Go only. Full Gradle build has been dry-run validated, not executed. | Dev |
 | 5 | **Terms / Privacy text is a draft**; needs legal review. Kannada/Telugu/Hindi strings need a native-speaker read. | PM / legal / reviewers |
 | 6 | Irrigation SHAP explanation is disabled on the 512 MB free tier (shows the water-balance numbers instead). | Infra decision (paid tier) |
 | 7 | Free-tier hosting limits: memory-bound, cold starts mitigated only by the keep-alive job. | Infra decision |
-| 8 | One test farmer (+919000000042) remains in the production database. | Ritesh (delete in Supabase) |
+| 8 | One test farmer (+919000000042) remains in the production database. | Owner (delete in Supabase) |
 
 ## 8. Suggested next steps
 

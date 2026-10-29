@@ -2,7 +2,7 @@ services:
   - type: web
     name: agro-mirai
     runtime: python
-    repo: https://github.com/riteshbonthalakoti/agro-mirai
+    repo: https://github.com/Sowji0118/agro-mirai
     plan: free
     region: singapore
     branch: main
@@ -62,7 +62,7 @@ services:
   - type: web
     name: agro-mirai-cnn
     runtime: python
-    repo: https://github.com/riteshbonthalakoti/agro-mirai
+    repo: https://github.com/Sowji0118/agro-mirai
     plan: free
     region: singapore
     branch: main

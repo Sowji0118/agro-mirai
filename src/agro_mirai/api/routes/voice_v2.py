@@ -8,7 +8,7 @@ API process free of that dependency weight per
 decisions/0019-deployment-architecture.md. Every failure to reach that
 service (``VOICE_SERVICE_URL`` unset, unreachable, timeout, malformed
 response) is surfaced as a specific 503 ``VOICE_UNAVAILABLE`` error —
-never a bare 500, never a silent empty body — so Ritesh's decided mobile
+never a bare 500, never a silent empty body — so the mobile app's chosen
 design (pre-cached TTS audio with Android's on-device TTS as the offline
 fallback) can key off that response to fall back, the same
 client-distinguishable-degradation contract Module 21 established for the

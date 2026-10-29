@@ -26,7 +26,7 @@ log = logging.getLogger("agro_mirai.acquisition.weather_fallbacks")
 
 METNO_URL = "https://api.met.no/weatherapi/locationforecast/2.0/compact"
 # MET Norway asks every client to identify itself
-METNO_HEADERS = {"User-Agent": "agro-mirai-capstone/1.0 github.com/riteshbonthalakoti/agro-mirai"}
+METNO_HEADERS = {"User-Agent": "agro-mirai-capstone/1.0 github.com/Sowji0118/agro-mirai"}
 POWER_URL = "https://power.larc.nasa.gov/api/temporal/daily/point"
 
 _POWER_MISSING = -999.0
